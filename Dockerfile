@@ -24,7 +24,5 @@ COPY Gemfile* ./
 
 ADD . .
 
-RUN bundle install
-
 EXPOSE 3000
 CMD ["/sbin/my_init"]
